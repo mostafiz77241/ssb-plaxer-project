@@ -1,0 +1,960 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+/* css top header part */
+.top_header{
+
+background-color: #efefef;
+
+padding: 15px 0;
+}
+.top_header p{
+    
+color: #7f7f7f;
+    
+padding: 0;
+}
+.top_header ul {
+
+margin: 0;
+
+padding: 0;
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.top_header ul li{
+
+}
+.top_header ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+color: #7f7f7f;
+
+font-size: 15px;
+
+font-weight: 500;
+}
+/* css top header part close */
+
+/* css header part start */
+.navbar-light .navbar-nav .nav-link {
+    color: #161616;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+}
+.btn_join,.join_us{
+       
+background-color: #f78f2f;
+    
+padding: 0;
+    
+padding: 5px 10px;
+    
+border-radius: 30px;
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+font-size: 14px;
+}
+.btn_join:hover,.join_us:hover{
+    background-color: #f07b0e;
+    color: #fff;
+
+}
+/* css banner part */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.hg{
+    min-height: 80vh;
+    align-items: center;
+}
+.banner h1{
+
+color: #fff;
+}
+.count{
+
+display: flex;
+
+justify-content: space-around;
+
+margin: 30px 0;
+}
+.count_item h5{
+
+color: #fff;
+
+font-size: 14px;
+}
+.count_item h6{
+
+color: #fff;
+
+font-size: 17px;
+}
+.join_us{
+   padding: 0;
+   padding: 7px 20px;
+   border: 1px solid #f78f2f;
+}
+.contact_us{
+    padding: 0;
+    padding: 7px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    
+
+}
+.contact_us:hover{
+    background: #f78f2f;
+    color: #fff;
+    border-color: #f78f2f;
+}
+/* css banner part close */
+/* css intraction part start */
+.intraction_item{
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 15px;
+    transition: .5s all ease-in-out;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #efebeb;
+    border-radius: 3px;
+}
+.intraction_item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cda306+0,e16202+100&0.85+0,0.85+100 */
+        background: -moz-linear-gradient(top,  rgba(205,163,6,0.85) 0%, rgba(225,98,2,0.85) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(205,163,6,0.85) 0%,rgba(225,98,2,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(205,163,6,0.85) 0%,rgba(225,98,2,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9cda306', endColorstr='#d9e16202',GradientType=0 ); /* IE6-9 */
+        z-index: -1;
+ 
+}
+
+.intraction_item:hover{
+    background-image: url(../images/bitcoin.png);
+    background-position: center;
+
+  
+    
+   
+   
+
+}
+.intraction_item:hover i{
+    color: #fff;
+}
+.intraction_item i{
+
+
+
+font-size: 40px;
+}
+.intraction_item:hover h3{
+    color: #fff;
+}
+.intraction_item h3{
+
+
+}
+.intraction_item:hover p{
+    color: #fff;
+}
+.intraction_item p{
+
+}
+/* css intraction part colose */
+
+/* css service part start */
+.service{
+    
+}
+.heading{
+
+}
+.heading h2{
+
+font-weight: 600;
+
+font-size: 25px;
+
+margin-top: 30px;
+}
+.heading p{
+
+color: #6e6e6e;
+
+font-size: 15px;
+
+font-weight: 500;
+
+margin-top: 25px;
+}
+.heading span{
+
+display: block;
+
+width: 50px;
+
+height: 2px;
+
+background: #f78f2f;
+
+margin: auto;
+}
+.item_section{
+
+}
+.item_section img{
+
+margin-top: 30px;
+}
+.item_section h2{
+
+color: #2b2b2b;
+
+font-weight: 700;
+
+font-size: 25px;
+
+margin-top: 25px;
+}
+.item_section p{
+    font-size: 16px;
+}
+.btn_more{
+    color: #000;
+    border-color: #000;
+}
+/* css service part colose */
+
+/* ccs banner second part start */
+.second_banner{
+    background-image: url(../images/second--banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+}
+.second_banner h1{
+
+color: #fff;
+
+font-size: 23px;
+
+text-transform: uppercase;
+
+margin-top: 20px;
+}
+.second_banner span{
+
+display: block;
+
+height: 2px;
+
+width: 50px;
+
+background: #f78f2f;
+
+/* margin-top: 5px; */
+
+margin-bottom: 30px;
+}
+.second_banner ul{
+
+list-style: none;
+
+padding: 0;
+
+margin: 0;
+}
+.second_banner ul li{
+
+margin: 15px 0;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.second_banner ul li h3{
+
+color: #fff;
+
+font-size: 20px;
+}
+.second_banner ul li p{
+
+color: #fff;
+
+font-size: 16px;
+}
+.iphone_6{
+
+position: absolute;
+
+width: 25%;
+
+bottom: 0%;
+
+left: 20%;
+}
+.iphone_6 img{
+}
+.box{
+    
+width: 55px;
+    
+height: 55px;
+    
+border: 3px solid #f78f2f;
+    
+border-radius: 5px;
+    
+transform: rotate(45deg);
+    
+margin-bottom: 17px;
+}
+.li_content {
+    width: 87%;
+}
+/* ccs banner second part end */
+/* css count part start */
+.count_section{
+    background: #f78f2f;
+    height: 140px;
+    /* margin-bottom: 10px; */
+    /* display: inline-block; */
+}
+.count_part h5{
+
+color: #fff;
+
+font-size: 30px;
+
+margin-top: 15px;
+}
+.count_part h4{
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+font-size: 17px;
+}
+/* css count part end */
+/* css bitcoin part start */
+.bitcoin_chart{
+    padding: 100px;
+    position: relative;
+}
+.bitcoin_chart img{
+
+}
+.safe{
+
+position: absolute;
+
+top: 10%;
+
+left: 30%;
+
+transform: translate(-30%, -10%);
+}
+.safe p,.phone p, .wallet p, .expart p, .excancg p, .buyes p{
+
+text-transform: capitalize;
+
+color: #252525;
+
+font-weight: 500;
+} 
+.safe .icon,.phone .icon, .wallet .icon, .expart .icon, .excancg .icon, .buyes .icon {
+
+font-size: 20px;
+
+width: 50px;
+
+height: 50px;
+
+border: 1px sollid red;
+
+border: 2px solid red;
+
+border-radius: 5px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+margin: auto;
+
+margin-bottom: 10px;
+
+transform: rotate(45deg);
+}
+.safe .icon i,.phone .icon i, .wallet .icon i, .expart .icon i, .excancg .icon i, .buyes .icon i{
+    
+transform: rotate(315deg);
+color: red;
+}
+.phone{
+
+position: absolute;
+
+top: 55%;
+
+left: 15%;
+
+transform: translate(-15%, -55%);
+}
+.phone .icon, .excancg .icon{
+    border-color: #63cd68;
+
+}
+.phone .icon i, .excancg .icon i{
+    color: #63cd68;
+
+}
+.wallet{
+    
+position: absolute;
+    
+left: 30%;
+    
+bottom: 5%;
+    
+transform: translate(-30%, -5%);
+}
+
+.wallet .icon, .expart .icon{
+    border-color: #43c5ca;
+
+}
+.wallet .icon i, .expart .icon i{
+    color: #43c5ca;
+
+}
+.expart{
+
+position: absolute;
+
+top: 10%;
+
+left: 70%;
+
+transform: translate(-70%, -10%);
+}
+.excancg{
+
+position: absolute;
+
+top: 55%;
+
+left: 81%;
+
+transform: translate(-81%, -55%);
+}
+.buyes{
+
+position: absolute;
+
+left: 66%;
+
+bottom: -9%;
+
+transform: translate(-5%, -66%);
+}
+/* css bitcoin part end */
+/* css trem expart start */
+.trem_expart{
+
+}
+.trem_expart h1{
+
+color: #2b2b2b;
+
+font-weight: 700;
+
+text-transform: uppercase;
+
+margin-top: 30px;
+
+font-size: 25px;
+}
+.trem_expart p{
+
+color: #6e6e6e;
+
+font-size: 15px;
+
+margin-top: 30px;
+
+font-weight: 500;
+}
+.trem_expart span{
+    
+display: block;
+    
+height: 2px;
+    
+width: 50px;
+    
+background: red;
+    
+margin: auto;
+    
+margin-bottom: 30px;
+}
+/* css trem expart close */
+/* css man part start */
+.man{
+
+}
+.man img{
+
+}
+.man h5{
+    margin-top: 30px; 
+    color: #1e1e1e
+
+
+}
+.man h6{   
+color: #fba057;   
+text-transform: uppercase;    
+letter-spacing: 2px;
+font-size: 14px;
+
+}
+/* css man part colose */
+/* css from part */
+.content{
+    padding: 100px 0;
+   background-image: url(../images/thard-banner.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.content h1{
+
+color: #fff;
+
+text-transform: uppercase;
+
+letter-spacing: 2px;
+
+margin-bottom: 20px;
+}
+.content span{
+
+display: block;
+
+height: 2px;
+
+width: 61px;
+
+background: #f8a034;
+
+margin: auto;
+
+margin-bottom: 25px;
+}
+.content form{
+   
+
+}
+.content form input{
+   margin-bottom: 20px;
+   background: transparent;
+}
+.content form textarea{
+    margin-bottom: 20px;
+    background: transparent;
+}
+.content form input[type="submit"]{
+    width: auto;
+    background: none;
+    background: #fba057;
+    padding: 0;
+    padding: 9px 34px;
+    margin: auto;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    letter-spacing: 2px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color:transparent;
+    border-color: #fff;
+    outline: 0;
+    box-shadow:none;
+}
+.content form input::placeholder{
+    color: #fff;
+}
+
+/* css from part close */
+/* css blog text part strat */
+.blog{
+
+}
+.blog  h1{
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+font-size: 28px;
+}
+.blog  p{
+
+color: #6e6e6e;
+
+font-size: 17px;
+
+font-weight: 500;
+
+margin-top: 30px;
+}
+.blog span{
+    
+display: block;
+    
+height: 2px;
+    
+width: 50px;
+    
+background: #fba057;
+    
+margin: auto;
+}
+.blog_item{
+    
+position: relative;
+    
+border: 1px solid #ecebeb;
+    
+border-radius: 15px;
+}
+.blog_item i {
+
+position: absolute;
+
+top: 301px;
+
+right: 329px;
+
+background: #f26c4f;
+
+padding: 10px 20px;
+
+border-radius: 50px;
+
+width: 60px;
+
+height: 60px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+color: #fff;
+
+font-size: 22px;
+}
+.blog_item img{
+
+width: 100%;
+}
+.blog_item ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-evenly;
+}
+.blog_item ul li{
+
+color: #6e6e6e;
+
+margin-top: 20px;
+
+font-size: 15px;
+}
+.blog_item h3{
+
+font-size: 21px;
+
+margin-right: 15px;
+}
+.blog_item p{
+
+font-size: 16px;
+}
+/* css blog text part close */
+
+/* css investore part start  */
+.investors{
+
+}
+.investors h1{
+
+color: #000;
+
+font-weight: 600;
+
+font-size: 25px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.investors span{
+    display: block;
+    height: 2px;
+    width: 50px;
+    background: #ff9b1a;
+    margin: auto;
+}
+.investors p{
+    
+color: #6e6e6e;
+    
+font-size: 14px;
+    
+font-weight: 500;
+    
+margin-top: 25px;
+}
+.item_pic img{
+
+width: 100px;
+
+height: 100px;
+
+border-radius: 50px;
+
+margin-top: 70px;
+position: relative;
+}
+.item_pic i{
+    position: absolute;
+    
+    
+    
+
+}
+.item_pic h2{
+
+color: #000;
+
+font-weight: 600;
+
+font-size: 21px;
+
+margin-top: 15px;
+}
+.item_pic h5{
+    
+color: red;
+    
+letter-spacing: 2px;
+}
+/* css investore part colose */
+/* css footer part start */
+.footer_part{
+    background-color: #000;
+
+}
+.footer_part img{
+    margin-top: 30px;
+
+}
+
+.footer_part h5{
+
+color: #b6b0b0;
+
+font-size: 13px;
+
+font-weight: 500;
+
+margin-top: 30px;
+
+/* margin: 0; */
+
+/* margin: 10px 20px; */
+}
+footer{
+    background-color: #101010;
+    padding: 60px 0;
+}
+.footer_logo img{
+    width: 70%;
+}
+.footer_icon ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_icon ul li{
+    margin: 14px;
+}
+.footer_icon ul li a i{
+    color: #817c7c;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #817c7c;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: .5s all ease-in-out;
+}
+.footer_icon ul li a i:hover{
+    color: #00ACED;
+    border: 1px solid #00ACED;
+}
+.footer_logo p{
+    margin-top: 25px;
+    color: #989898;
+}
+.footer_contact h2, .link h2, .newsletter h2{
+    font-size: 25px;
+    color: #efe8c7;
+    margin-bottom: 20px;
+}
+.footer_contact span, .link span, .newsletter span{
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: #ff9b1a;
+    margin-bottom: 25px;
+}
+.contact_icon{
+    display: flex;
+}
+.contact_icon i{
+    font-size: 25px;
+    color: #989898;
+    margin-right: 25px;
+}
+.contact_icon p{
+    color: #989898;
+}
+.link_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.link_menu ul li{
+    margin: 8px 0;
+}
+.link_menu ul li a{
+    color: #989898;
+    text-decoration: none;
+    transition: .5s all ease-in-out;
+}
+.link_menu ul li a:hover{
+    color: #d17d0f;
+    letter-spacing: 2px;
+}
+.newsletter form input{
+    padding: 11px 30px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #d17d0f;
+    caret-color: #fff;
+    border-radius: 30px;
+}
+.newsletter input:focus{
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid #d17d0f;
+}
+.newsletter input::placeholder{
+    color: #fff;
+}
+.newsletter{
+    position: relative;
+}
+.form_icon i{
+    position: absolute;
+    background: #FB8F2C;
+    color: #fff;
+    padding: 16px;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.footer_header{
+    background-color: #000000;
+    padding: 15px 0;
+}
+.to_menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.to_menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #7f7f7f;
+    font-size: 15px;
+}
+.footer_header p{
+    color: #7f7f7f;
+    font-size: 16px;
+}
+/* footer part end */
